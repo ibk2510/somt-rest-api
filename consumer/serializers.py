@@ -18,7 +18,7 @@ class AddressSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['username', 'password', 'email', 'first_name', 'last_name']
+        fields = ['password', 'email', 'first_name', 'last_name']
 
 
 class ConsumerSerializer(serializers.ModelSerializer):
